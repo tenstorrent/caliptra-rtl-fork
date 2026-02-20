@@ -5,12 +5,12 @@ targets:
   tb:
     directories: [$COMPILE_ROOT/rtl]
     files:
-      - $COMPILE_ROOT/rtl/axi_pkg.sv
+      - $COMPILE_ROOT/rtl/i3ccore_axi_pkg.sv
       - $COMPILE_ROOT/rtl/axi_if.sv
   rtl:
     directories: [$COMPILE_ROOT/rtl]
     files:
-      - $COMPILE_ROOT/rtl/axi_pkg.sv
+      - $COMPILE_ROOT/rtl/i3ccore_axi_pkg.sv
       - $COMPILE_ROOT/rtl/axi_if.sv
 ---
 provides: [axi_sub]

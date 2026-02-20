@@ -13,7 +13,7 @@
 // limitations under the License.
 //
 
-package axi_pkg;
+package i3ccore_axi_pkg;
 
     localparam AXI_LEN_MAX_VALUE = 256; // 8-bit LEN signal = 256 beats max
     localparam AXI_LEN_WIDTH     = $clog2(AXI_LEN_MAX_VALUE);
